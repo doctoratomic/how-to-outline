@@ -1,0 +1,126 @@
+/*Selector {
+  Property: value;
+}*/
+
+
+html {
+  box-sizing: border-box;
+}
+
+p {
+  font-size: x-large;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(124, 123, 123);
+  text-decoration: solid;
+  line-height: 2;
+  font-family: Courier;
+}
+
+img {
+  width: 450px;
+  height: 450px;
+  margin: 20px;
+  transition: all 1s;
+  box-shadow: 4px 4px 5px #070707;
+  }
+
+img:hover {
+  transform: scale(1.1);
+}
+
+nav {
+  display: block;
+}
+
+ol {
+  list-style: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  list-style: none;
+}
+
+  li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+  li a:hover {
+  background-color: #111;
+}
+main {
+  margin: 50;
+  padding: 25px;
+  background-color: lightgray;
+}
+
+main > h1, p, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-xl {
+padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: #000000;
+  border-color: rgb(0, 0, 0);
+}
+
+.btn-primary:hover {
+  transform: scale(2.1);
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+
+h1 {
+  font-size: 4em;
+  border: 5px solid rgb(0, 0, 0);
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
+
+li.resources{
+  float: none;
+}
+
+hr {
+  margin: 20px auto;
+  color: #000000;
+  border: 3px solid #000000;
+  max-width: 65px;
+  opacity: 1;
+  border-width: 3px;
+
+}
